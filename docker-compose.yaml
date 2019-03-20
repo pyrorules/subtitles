@@ -1,0 +1,20 @@
+version: '3.4'
+
+services:
+    web:
+        build:
+            target: web
+            context: .
+        environment:
+            DOMAIN_NAME: default:word-stats.loc
+        volumes:
+            - ./public:/var/www/html/public
+
+    php:
+        build:
+            target: php-dev
+            context: .
+            args:
+                APP_ENV: "dev" # Always build developer-friendly environment
+        volumes:
+            - .:/var/www/html

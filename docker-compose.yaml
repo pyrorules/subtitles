@@ -6,7 +6,7 @@ services:
             target: web
             context: .
         environment:
-            DOMAIN_NAME: default:word-stats.loc
+            DOMAIN_NAME: default:subtitles.loc
         volumes:
             - ./public:/var/www/html/public
 

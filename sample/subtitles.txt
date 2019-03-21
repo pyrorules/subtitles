@@ -1,0 +1,29 @@
+{11074}{11174}- Dokąd idziesz?|- Do sądu za pobicie tej od lemoniady.
+{11175}{11243}Iść z tobą?|Mogę urwać się z roboty.
+{11245}{11318}Nie trzeba.|Zrobili z tego wykroczenie.
+{11378}{11472}- Frank mówił ci, że może leżeć|aż pół roku? - Serio?!
+{11473}{11587}- Rano zażyczył sobie mycia gąbką.|- Co to takiego?
+{11588}{11676}Coś, czego nie zrobiłam.|Miałabym koszmary do starości.
+{11677}{11748}Grafik Debbie jest fajny.|Taki nieobciążający.
+{11750}{11839}Człowiek skacze koło|70-kilowego dzieciaka na kanapie.
+{11840}{11946}- Właśnie, w nocniku leży potężna kupa.|- To ona tak wali?
+{11974}{12058}Może by mu załatwić|pampersy dla dorosłych?
+{12059}{12200}Będziesz mu wycierał szmatką gówno|spomiędzy łoniaków przy przewijaniu?
+{12465}{12502}Procha!
+{12503}{12594}- Słodki Jezu w malinach, co tak capi?|- Basen.
+{12596}{12658}- Kto ma dyżur?|- Carl.
+{12660}{12755}- W dupę kielnia.|- Sklep monopolowy żeście skroili?
+{12757}{12810}- To ty, Debbie?|- Tak.
+{12811}{12842}Dawaj procha!
+{12843}{12921}- Dostaniesz za pół godziny.|- Chcę teraz!
+{12922}{13030}- Po Oksykodonie dostaniesz zaparcia.|- Póki co nie dostał.
+{13061}{13101}Rany, co on je?!
+{13104}{13194}Następny dopiero za osiem godzin.|Naciesz się nim.
+{13195}{13268}- No to dawaj dwa.|{y:i}- Wolno ci tylko jeden.
+{13271}{13345}{Y:i}- Dwa! Jeden mi nie pomoże.|- Przykro mi niezmiernie.
+{13346}{13413}Macie jakieś pomysły|odnośnie do Franka?
+{13414}{13457}Możliwości jest niewiele.
+{13460}{13523}Nie możemy go naćpać|i porzucić pod mostem.
+{13525}{13592}- Czemu?|- Poszlibyśmy siedzieć za znęcanie się.
+{13593}{13630}Żaden sąd by nas nie skazał.
+{13632}{13729}Można by mu znów załatwić rentę.|Miałby opiekuna za państwowe.

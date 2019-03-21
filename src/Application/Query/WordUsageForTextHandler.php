@@ -22,15 +22,16 @@ final class WordUsageForTextHandler
     }
 
     /**
-     * @return WordUsage[]
      * @throws ParserNotFoundException
+     *
+     * @return WordUsage[]
      */
     public function __invoke(WordUsageForText $query): array
     {
         $wordParser = $this->parserRegistry->getByType($query->type());
 
         $usage = \array_count_values($wordParser->parse($query->text()));
-        arsort($usage);
+        \arsort($usage);
 
         return \array_map(
             function (string $word, int $usage) {

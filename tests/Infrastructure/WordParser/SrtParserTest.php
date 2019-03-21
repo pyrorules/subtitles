@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace App\Tests\Infrastructure\WordParser;
 
 use App\Infrastructure\WordParser\SrtParser;
-use App\Infrastructure\WordParser\TxtParser;
 use PHPUnit\Framework\TestCase;
 
 /**
@@ -73,5 +72,4 @@ EOD;
             $srtParser->parse(self::SRT_TEXT)
         );
     }
-
 }

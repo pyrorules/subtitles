@@ -13,7 +13,7 @@ final class TxtParser implements WordParser
 {
     public function parse(string $text): array
     {
-        preg_match_all('/\pL+/u', $text, $matches);
+        \preg_match_all('/\pL+/u', $text, $matches);
 
         return $matches[0];
     }

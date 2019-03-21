@@ -37,7 +37,7 @@ final class WordUsage extends AbstractController
             try {
                 $wordUsages = $this->queryBus->handle(
                     new WordUsageForText(
-                        \strtolower($subtitlesFile->getClientOriginalExtension()),
+                        \mb_strtolower($subtitlesFile->getClientOriginalExtension()),
                         $subtitlesFileHandle->fread($subtitlesFileHandle->getSize())
                     )
                 );

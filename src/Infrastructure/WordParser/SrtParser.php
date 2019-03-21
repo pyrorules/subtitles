@@ -20,7 +20,7 @@ final class SrtParser implements WordParser
         $words = [[]];
 
         foreach ($parser->parse() as $caption) {
-            preg_match_all('/\pL+/u', $caption->text, $matches);
+            \preg_match_all('/\pL+/u', $caption->text, $matches);
 
             $words[] = $matches[0];
         }

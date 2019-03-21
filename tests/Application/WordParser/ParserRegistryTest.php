@@ -19,7 +19,7 @@ class ParserRegistryTest extends TestCase
     /** @var WordParser[] */
     private $parsers;
 
-    public function setUp()
+    protected function setUp()
     {
         $this->parserRegistry = new ParserRegistry();
 

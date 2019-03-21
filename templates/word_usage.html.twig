@@ -1,0 +1,33 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+    <h1>Subtitles - words usage</h1>
+    <form action="{{ path('word usage') }}" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="subtitles-file">Subtitles file</label>
+            <input type="file" class="form-control-file" id="subtitles-file" name="subtitles">
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-success">Submit</button>
+        </div>
+    </form>
+
+    {% if wordUsages is not null %}
+        <table id="subtitles-words-usage" class="table table-striped table-bordered table-hover">
+            <thead>
+            <tr>
+                <th scope="col">Word</th>
+                <th scope="col">Number of occurrences</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for wordUsage in wordUsages %}
+                <tr>
+                    <td>{{ wordUsage.word }}</td>
+                    <td>{{ wordUsage.usage }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    {% endif %}
+{% endblock %}

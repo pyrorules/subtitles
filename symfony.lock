@@ -47,6 +47,27 @@
             ".php_cs.dist"
         ]
     },
+    "league/tactician": {
+        "version": "v1.0.3"
+    },
+    "league/tactician-bundle": {
+        "version": "1.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "222c3d39d38378bc6a9790a0b5baf841ba6679b9"
+        },
+        "files": [
+            "config/packages/league_tactician.yaml"
+        ]
+    },
+    "league/tactician-container": {
+        "version": "2.0.0"
+    },
+    "league/tactician-logger": {
+        "version": "v0.10.0"
+    },
     "muglug/package-versions-56": {
         "version": "1.2.4"
     },
@@ -85,6 +106,9 @@
     },
     "psr/simple-cache": {
         "version": "1.0.1"
+    },
+    "symfony/asset": {
+        "version": "v4.2.4"
     },
     "symfony/cache": {
         "version": "v4.2.4"
@@ -209,11 +233,51 @@
     "symfony/stopwatch": {
         "version": "v4.2.4"
     },
+    "symfony/templating": {
+        "version": "v4.2.4"
+    },
+    "symfony/twig-bridge": {
+        "version": "v4.2.4"
+    },
+    "symfony/twig-bundle": {
+        "version": "3.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "3.3",
+            "ref": "369b5b29dc52b2c190002825ae7ec24ab6f962dd"
+        },
+        "files": [
+            "config/packages/twig.yaml",
+            "config/routes/dev/twig.yaml",
+            "templates/base.html.twig"
+        ]
+    },
     "symfony/var-exporter": {
         "version": "v4.2.4"
     },
+    "symfony/webpack-encore-bundle": {
+        "version": "1.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "1b88cff897d383c45522a457ea9daba85a9b9ab2"
+        },
+        "files": [
+            "assets/css/app.css",
+            "assets/js/app.js",
+            "config/packages/assets.yaml",
+            "config/packages/webpack_encore.yaml",
+            "package.json",
+            "webpack.config.js"
+        ]
+    },
     "symfony/yaml": {
         "version": "v4.2.4"
+    },
+    "twig/twig": {
+        "version": "v2.7.2"
     },
     "vimeo/psalm": {
         "version": "3.2.2"

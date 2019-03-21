@@ -18,3 +18,10 @@ services:
                 APP_ENV: "dev" # Always build developer-friendly environment
         volumes:
             - .:/var/www/html
+
+    encore:
+        image: node
+        volumes:
+            - .:/app
+        working_dir: /app
+        command: bash -c "yarn && yarn watch"

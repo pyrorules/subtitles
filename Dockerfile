@@ -56,4 +56,3 @@ FROM nginx:1.15.9-alpine as web
 COPY docker/nginx/conf.d /etc/nginx/conf.d/
 
 COPY ./public /var/www/html/public
-COPY --from=php-prod /var/www/html/public/bundles /var/www/html/public/bundles

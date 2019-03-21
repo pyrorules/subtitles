@@ -39,3 +39,4 @@ $ docker-compose exec php composer run qa
 
 - Pragmatically speaking, subtitles files are usually very small so memory management matters are omitted when reading files in the application
 - `sample` directory contains files in different formats that can be used to check the application's functionality
+- The application assumes that input subtitles file is properly encoded
